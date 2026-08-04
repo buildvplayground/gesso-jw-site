@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "gesso-jw-site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:\\Users\\DELL\\Documents\\PROJETOS\\gesso-jw-site\\preview-server.js"],
+      "port": 8791,
+      "autoPort": true
+    }
+  ]
+}

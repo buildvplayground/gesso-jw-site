@@ -17,17 +17,20 @@ Diferenciais: atendimento, qualidade, orçamento em 2 dias úteis. Ticket mínim
 ## Checklist do pipeline
 - [x] 1. Material extraído do Drive
 - [x] 2. Pastas organizadas (scaffold-projeto)
-- [ ] 2b. Repo GitHub criado
-- [ ] 3. Design system (skill: design-system)
-- [ ] 4. Copy dos wireframes extraída (skill: extrair-copy)
-- [ ] 5. Front-end criado (gerar-frontend + revisar-frontend)
-- [ ] 6. Ajustes finais (responsivo, imagens tratadas, animações)
-- [ ] 7. Tags instaladas + módulos LGPD
-- [ ] 8. Revisão humana + deploy
+- [x] 2b. Repo GitHub criado — https://github.com/dev-buildv/gesso-jw-site
+- [x] 3. Design system (design-system/index.html + direcao-estilo.md; paleta azul #1E3A7B + vermelho #C1272D da marca real do uniforme)
+- [x] 4. Copy estruturada (Copys/copy-site.txt, 10 seções — sem wireframes no Drive)
+- [x] 5. Front-end criado (Site/index.html + css + js; auditoria revisar-frontend: 0 bloqueantes após correções)
+- [x] 6. Ajustes finais (webp 80MB→5,8MB; overflow 0 em 320/360/375/768/1265; menu, lightbox e reveals testados por medição)
+- [x] 7. Módulos LGPD (cookie banner c/ dataLayer, política modal, /fornecedores/, /trabalhe-conosco/, form-handler.php, admin.php, db-config.example.php) — tags GTM/Merlin PULADAS (sem IDs)
+- [ ] 8. 🛑 Revisão humana + deploy (aguardando aprovação e credenciais)
 
-## Pendências (dependem do usuário)
-- Logo oficial Gesso JW (Drive só tem marca Wolfmann) — site usará wordmark placeholder
-- Telefone/WhatsApp comercial (briefing: "vai enviar no grupo") — placeholder 5511999999999
-- Hospedagem/domínio não definidos — default HTML estático
-- GTM/GA4/Pixel IDs e Merlin — não fornecidos
-- Briefing pede 2 LPs teste A/B — pipeline entrega site institucional; confirmar escopo
+## Pendências (dependem do usuário — ver state.json.pendencias, 1:1 com o report)
+1. Logo oficial Gesso JW (Drive só tem marca Wölfmann; site usa SVG recriado do uniforme)
+2. WhatsApp comercial real (placeholder em `Site/js/app.js` → `WA_NUMBER`; candidato do uniforme: 11 98085-8686)
+3. Confirmar e-mail contato@gessojw.com.br
+4. Hospedagem/domínio (site estático pronto; definir Vercel ou Hostinger)
+5. IDs GTM/GA4/Pixel + Merlin (banner já emite consentimento no dataLayer)
+6. Banco MySQL + `db-config.php` + senha do admin (antes do deploy)
+7. Escopo das 2 LPs de teste A/B do briefing
+8. Vídeos das obras não usados (disponíveis no Drive)
