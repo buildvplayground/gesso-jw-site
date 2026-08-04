@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 96" role="img" aria-label="Gesso JW">
+  <!-- Versão para fundo escuro — recriação provisória, substituir pelo arquivo oficial -->
+  <text x="0" y="66" font-family="Archivo, Arial, sans-serif" font-size="52" font-weight="800" font-style="italic" fill="#FFFFFF">Gesso</text>
+  <g transform="translate(196,0)">
+    <polygon points="70,4 136,28 122,88 18,88 4,28" fill="#FFFFFF"/>
+    <text x="70" y="68" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="44" font-weight="900" font-style="italic" fill="#1E3A7B">JW</text>
+  </g>
+</svg>

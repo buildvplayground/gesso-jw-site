@@ -1,0 +1,200 @@
+==================================================
+1. HERO
+==================================================
+
+Overline:
+Gesso e drywall em São Paulo e ABC
+
+Título (H1):
+Forros, divisórias e arte em gesso com acabamento de alto padrão
+
+Subtítulo:
+Atendemos arquitetos, construtoras, incorporadoras e clientes finais com equipe própria, obra limpa e orçamento em até 2 dias úteis.
+
+CTA: Pedir orçamento no WhatsApp
+CTA secundário: Ver portfólio
+
+[Imagem: foto real de obra — forro curvo em gesso (imagens/favoritas)]
+
+==================================================
+2. SERVIÇOS
+==================================================
+
+Overline:
+Nossos serviços
+
+Título (H2):
+Soluções completas em gesso e drywall
+
+Cards (título + texto):
+Forros em drywall e gesso
+Execução limpa e rápida, com acabamento pronto para pintura.
+
+Divisórias de drywall e gesso
+Ambientes novos sem obra pesada, com opção de isolamento acústico.
+
+Arte em gesso personalizada
+Curvas, sancas e formas exclusivas desenhadas junto com o arquiteto.
+
+Molduras em gesso e EPS
+Detalhes de acabamento que valorizam o projeto.
+
+Forros e divisórias acústicas
+Conforto acústico para ambientes residenciais e comerciais.
+
+Steel Frame
+Estrutura leve e rápida para ampliações e construções. (menção — sem página dedicada)
+
+==================================================
+3. DIFERENCIAIS
+==================================================
+
+Overline:
+Por que a Gesso JW
+
+Título (H2):
+Parceira de quem não pode errar no acabamento
+
+Diferenciais numerados:
+01. Orçamento em até 2 dias úteis — resposta rápida com escopo claro.
+02. Qualidade de acabamento — padrão aprovado por arquitetos e construtoras de alto padrão.
+03. Atendimento próximo — comunicação fácil do primeiro contato à entrega.
+04. Prazo cumprido — cronogramas respeitados, comprovados pelos depoimentos.
+
+==================================================
+4. PORTFÓLIO
+==================================================
+
+Overline:
+Portfólio
+
+Título (H2):
+Obras que falam pela gente
+
+Introdução:
+Projetos executados em parceria com escritórios de arquitetura e construtoras em São Paulo e região.
+
+Itens (obra — crédito — local):
+- Apartamento 177 m² — Arq. Mayara Bergazhi — Morumbi/SP
+- Apartamento 110 m² — Arq. Bruna Palhares — Moema/SP
+- Apartamento 140 m² — Arq. Eduardo Kasinski — São Caetano/SP
+- Apartamento 100 m² — Arq. Eduardo Kasinski — Santos/SP
+- Fachada comercial 509 m² — Artefacto — Jardim Paulista/SP
+- Mostra Artefacto 120 m² — Arq. Roberto Migotto — Jardim Paulista/SP
+- Mostra Artefacto 90 m² — Arq. Sig Bergamin — Jardim Paulista/SP
+- Sala 40 m² — Artefacto — Espaço Vibra SP
+- Comercial 350 m² — 2BUY Arquitetura — Pinheiros/SP
+
+[Imagens: grade de fotos reais das obras (imagens/obras + imagens/favoritas), lightbox]
+
+==================================================
+5. DEPOIMENTOS
+==================================================
+
+Overline:
+Depoimentos
+
+Título (H2):
+Quem contrata, recomenda
+
+Depoimentos (autor + texto):
+Arquiteta Mayara Bergazhi
+"A Gesso JW sempre entrega exatamente o que promete. Excelente acabamento, organização e cumprimento dos prazos. É uma empresa que transmite confiança em todas as etapas da obra."
+
+Wolfmann Construtora
+"Já executamos diversos projetos em parceria com a Gesso JW e o padrão sempre foi o mesmo: qualidade, comprometimento e eficiência. Uma empresa que recomendamos com tranquilidade."
+
+URBIC Construtora
+"A Gesso JW sempre demonstrou elevado padrão técnico, equipe qualificada e comprometimento com os cronogramas das obras. Além da qualidade dos serviços, destaca-se pela facilidade de comunicação, organização e capacidade de solucionar imprevistos durante a execução. É uma empresa que recomendamos pela confiabilidade e excelência."
+
+Mikail Engenharia
+"A Gesso JW demonstra elevado conhecimento técnico e excelente gestão da execução dos serviços. Além da qualidade entregue, sempre apresentou flexibilidade para atender às necessidades da obra, mantendo custos competitivos e alto padrão de acabamento."
+
+RR Gibran Engenharia
+"A Gesso JW é uma empresa parceira que transmite segurança desde o planejamento até a entrega final. Sua equipe é comprometida, organizada e altamente capacitada, sempre oferecendo soluções técnicas eficientes sem comprometer o cronograma da obra."
+
+Roma Engenharia e Construções
+"Recomendamos a Gesso JW pela seriedade, competência e comprometimento em todas as etapas dos serviços prestados. A empresa alia qualidade técnica, cumprimento de prazos e excelente relação custo-benefício, sendo uma fornecedora de confiança para nossos empreendimentos."
+
+Artefacto – Loja
+"Em obras comerciais, prazo é fundamental. A Gesso JW sempre atendeu nossas demandas com agilidade, organização e excelente qualidade de execução."
+
+==================================================
+6. COMO TRABALHAMOS
+==================================================
+
+Overline:
+Como trabalhamos
+
+Título (H2):
+Do primeiro contato à entrega, sem surpresas
+
+Etapas:
+ETAPA 01 — Contato via WhatsApp: conte sobre a sua obra.
+ETAPA 02 — Visita técnica / medição: avaliamos o local e o projeto.
+ETAPA 03 — Orçamento em até 2 dias úteis: escopo claro, sem surpresas.
+ETAPA 04 — Execução: equipe própria, obra limpa e organizada.
+ETAPA 05 — Acabamento fino: padrão aprovado por arquitetos.
+ETAPA 06 — Entrega: no prazo combinado.
+
+==================================================
+7. SOBRE / REGIÃO
+==================================================
+
+Overline:
+Sobre a Gesso JW
+
+Título (H2):
+Especialistas em gesso e drywall para obras de alto padrão
+
+Introdução:
+A Gesso JW atende São Paulo (zonas sul e oeste), regiões de condomínios de alto padrão, Santo André e São Caetano. Trabalhamos com arquitetos, construtoras, incorporadoras e clientes finais em projetos a partir de 30–40 m².
+
+Itens:
+- Região: São Paulo (zonas sul/oeste), Santo André e São Caetano
+- Público: arquitetos, construtoras, incorporadoras e cliente final
+- Porte mínimo: obras a partir de 30–40 m²
+
+==================================================
+8. FAQ
+==================================================
+
+Título (H2):
+Perguntas frequentes
+
+FAQ:
+Qual o porte mínimo de obra que vocês atendem?
+Atendemos projetos a partir de 30–40 m², de forros pontuais a obras comerciais completas.
+
+Em quanto tempo recebo o orçamento?
+Em até 2 dias úteis após a visita técnica ou envio do projeto.
+
+Quais regiões vocês atendem?
+São Paulo (zonas sul e oeste), regiões de condomínios de alto padrão, Santo André e São Caetano.
+
+Vocês trabalham com arquitetos e construtoras?
+Sim — grande parte das nossas obras é em parceria com escritórios de arquitetura, construtoras e incorporadoras.
+
+==================================================
+9. CTA FINAL
+==================================================
+
+Título (H2):
+Sua obra merece um acabamento à altura
+
+Subtítulo:
+Envie seu projeto e receba o orçamento em até 2 dias úteis.
+
+CTA: Chamar no WhatsApp
+
+==================================================
+10. FOOTER
+==================================================
+
+Itens:
+- Gesso JW — Gesso e drywall de alto padrão
+- Site: www.gessojw.com.br
+- E-mail: contato@gessojw.com.br [CONFIRMAR — lido do uniforme]
+- Telefone/WhatsApp: [PENDENTE — cliente vai enviar; candidato lido do uniforme: (11) 9 8085-8686]
+- Região: São Paulo (zonas sul/oeste), Santo André e São Caetano
+- Links: Política de Privacidade · Fornecedores · Trabalhe Conosco
