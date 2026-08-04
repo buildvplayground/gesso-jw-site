@@ -1,0 +1,31 @@
+{
+  "cliente": "Gesso JW",
+  "slug": "gesso-jw",
+  "segmento": "Gesso e drywall (construção civil)",
+  "etapa_atual": 3,
+  "etapas": [
+    { "n": 1, "nome": "Extração do Drive", "status": "done" },
+    { "n": 2, "nome": "Scaffold + repo GitHub", "status": "doing" },
+    { "n": 3, "nome": "Design system", "status": "pending" },
+    { "n": 4, "nome": "Extração de copy", "status": "pending" },
+    { "n": 5, "nome": "Front-end", "status": "pending" },
+    { "n": 6, "nome": "Ajustes finais", "status": "pending" },
+    { "n": 7, "nome": "Tags e módulos", "status": "pending" },
+    { "n": 8, "nome": "Revisão + deploy", "status": "blocked" }
+  ],
+  "pendencias": [
+    "Logo oficial Gesso JW — Drive contém apenas marca Wölfmann Construtora (parceira); site usa wordmark placeholder",
+    "Telefone/WhatsApp comercial real (placeholder 5511999999999 no site)",
+    "Hospedagem e domínio não definidos (default: HTML estático)",
+    "IDs de tags (GTM/GA4/Pixel) e Merlin não fornecidos — instalação pulada",
+    "Briefing pede 2 LPs em teste A/B — entregue site institucional único; confirmar se as LPs serão derivadas depois",
+    "Deploy em produção aguarda credenciais/domínio do usuário"
+  ],
+  "links": {
+    "drive": "https://drive.google.com/drive/folders/1W06w6OccDfFJxchs09Xk-9lNofhVbvG9",
+    "repo": null,
+    "preview": null,
+    "dominio": null
+  },
+  "atualizado_em": "2026-08-04"
+}
