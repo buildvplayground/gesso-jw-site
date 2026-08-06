@@ -233,7 +233,13 @@
   var COOKIE_KEY = 'gesso_jw_cookie_ok';
   var notice = document.getElementById('cookieNotice');
   window.dataLayer = window.dataLayer || [];
-  if (notice && !localStorage.getItem(COOKIE_KEY)) setTimeout(function () { notice.classList.add('show'); }, 1200);
+  var storedConsent = localStorage.getItem(COOKIE_KEY);
+  if (storedConsent) {
+    // visitante recorrente: reemite o estado para o GTM condicionar as tags
+    window.dataLayer.push({ event: storedConsent === 'granted' ? 'cookie_consent_granted' : 'cookie_consent_denied' });
+  } else if (notice) {
+    setTimeout(function () { notice.classList.add('show'); }, 1200);
+  }
   function dismissCookie(consent) {
     if (notice) notice.classList.remove('show');
     localStorage.setItem(COOKIE_KEY, consent ? 'granted' : 'denied');

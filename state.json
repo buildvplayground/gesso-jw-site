@@ -4,21 +4,52 @@
   "segmento": "Gesso e drywall (construção civil)",
   "etapa_atual": 8,
   "etapas": [
-    { "n": 1, "nome": "Extração do Drive", "status": "done" },
-    { "n": 2, "nome": "Scaffold + repo GitHub", "status": "done" },
-    { "n": 3, "nome": "Design system", "status": "done" },
-    { "n": 4, "nome": "Extração de copy", "status": "done" },
-    { "n": 5, "nome": "Front-end", "status": "done" },
-    { "n": 6, "nome": "Ajustes finais", "status": "done" },
-    { "n": 7, "nome": "Tags e módulos", "status": "done" },
-    { "n": 8, "nome": "Revisão humana + deploy", "status": "blocked" }
+    {
+      "n": 1,
+      "nome": "Extração do Drive",
+      "status": "done"
+    },
+    {
+      "n": 2,
+      "nome": "Scaffold + repo GitHub",
+      "status": "done"
+    },
+    {
+      "n": 3,
+      "nome": "Design system",
+      "status": "done"
+    },
+    {
+      "n": 4,
+      "nome": "Extração de copy",
+      "status": "done"
+    },
+    {
+      "n": 5,
+      "nome": "Front-end",
+      "status": "done"
+    },
+    {
+      "n": 6,
+      "nome": "Ajustes finais",
+      "status": "done"
+    },
+    {
+      "n": 7,
+      "nome": "Tags e módulos",
+      "status": "done"
+    },
+    {
+      "n": 8,
+      "nome": "Revisão humana + deploy",
+      "status": "blocked"
+    }
   ],
   "pendencias": [
     "Logo oficial Gesso JW — o Drive só tem a marca Wölfmann Construtora (parceira); o site usa SVG recriado do uniforme (Marca/logo-gesso-jw*.svg) — enviar arquivo oficial para substituir",
     "Telefone/WhatsApp comercial real — placeholder 5511999999999 na constante WA_NUMBER de Site/js/app.js; candidato lido do uniforme: (11) 98085-8686 (confirmar)",
     "Confirmar e-mail contato@gessojw.com.br (lido do uniforme, foto borrada)",
     "Hospedagem e domínio não definidos — site gerado em HTML estático; informar Vercel/Hostinger para preparar deploy",
-    "IDs de tags (GTM/GA4/Meta Pixel) e Merlin não fornecidos — instalação pulada; banner de cookies já emite cookie_consent_granted/denied no dataLayer",
     "Deploy: criar banco MySQL e preencher Site/db-config.php (só o .example é versionado) + trocar PROJETO_ADMIN_PASS antes de subir",
     "Briefing pede 2 LPs em teste A/B — entregue site institucional único como base; definir se as 2 LPs derivam dele",
     "Vídeos das obras no Drive não foram usados no site (disponíveis se quiser seção de vídeo)"
@@ -29,5 +60,5 @@
     "preview": "http://localhost:8791",
     "dominio": null
   },
-  "atualizado_em": "2026-08-04"
+  "atualizado_em": "2026-08-06"
 }
