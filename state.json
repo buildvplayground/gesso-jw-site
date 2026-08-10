@@ -18,8 +18,7 @@
     "Confirmar e-mail contato@gessojw.com.br (lido do uniforme, foto borrada)",
     "Hospedagem e domínio não definidos — 2 pastas de deploy prontas (Site/=LP A principal, Site-B/=LP B slug secundário); definir Vercel (2º projeto com Root Directory=Site-B) ou Hostinger (subpath/subdomínio) e o slug final da LP B",
     "Deploy: criar banco MySQL e preencher Site/db-config.php (só o .example é versionado) + trocar PROJETO_ADMIN_PASS antes de subir — só a LP A tem formulários/backend",
-    "Vídeos das obras no Drive não foram usados no site (disponíveis se quiser seção de vídeo)",
-    "Logo é recriação vetorial fiel (cores #D6A626/#25241E e formato extraídos por amostragem de pixel do site antigo www.gessojw.com.br) — se o cliente tiver o arquivo-fonte original (.ai/.eps), enviar para precisão total de tipografia"
+    "Vídeos das obras no Drive não foram usados no site (disponíveis se quiser seção de vídeo)"
   ],
   "links": {
     "drive": "https://drive.google.com/drive/folders/1W06w6OccDfFJxchs09Xk-9lNofhVbvG9",

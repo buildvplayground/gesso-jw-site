@@ -4,10 +4,11 @@
 Não há arquivos de logo Gesso JW no Drive (a pasta "Logotipo e Manual de Marca" é da
 **Wölfmann Construtora**, parceira — NÃO usar). A identidade real foi confirmada direto no
 site antigo do cliente, **www.gessojw.com.br** (2026-08-10): wordmark **"Gesso" em grafite
-bold + "JW" em grafite dentro de um pentágono/casa dourado**. Logos SVG em `Marca/`
-recriados em vetor a partir dos arquivos oficiais extraídos do site — cores e formato
-conferidos por amostragem de pixel (`#25241E` grafite, `#D6A626` dourado). Não é mais
-recriação às cegas — é a marca real.
+bold + "JW" em grafite dentro de um pentágono/casa dourado**. Desde 2026-08-10 o projeto
+usa os **arquivos PNG oficiais** (baixados do site do cliente, `Marca/logo-gesso-jw.png` =
+versão clara/fundo claro e `Marca/logo-gesso-jw-branco.png` = versão para fundo escuro) —
+não é mais recriação em vetor. `#25241E` grafite / `#D6A626` dourado conferidos por
+amostragem de pixel direto nesses arquivos.
 
 ## Estilo recomendado (banco ui-ux-pro-max: Construction/Architecture)
 - **Primário:** Minimalismo + fotos reais das obras (hiper-realismo — nada de stock/IA)
