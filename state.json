@@ -4,61 +4,29 @@
   "segmento": "Gesso e drywall (construção civil)",
   "etapa_atual": 8,
   "etapas": [
-    {
-      "n": 1,
-      "nome": "Extração do Drive",
-      "status": "done"
-    },
-    {
-      "n": 2,
-      "nome": "Scaffold + repo GitHub",
-      "status": "done"
-    },
-    {
-      "n": 3,
-      "nome": "Design system",
-      "status": "done"
-    },
-    {
-      "n": 4,
-      "nome": "Extração de copy",
-      "status": "done"
-    },
-    {
-      "n": 5,
-      "nome": "Front-end",
-      "status": "done"
-    },
-    {
-      "n": 6,
-      "nome": "Ajustes finais",
-      "status": "done"
-    },
-    {
-      "n": 7,
-      "nome": "Tags e módulos",
-      "status": "done"
-    },
-    {
-      "n": 8,
-      "nome": "Revisão humana + deploy",
-      "status": "blocked"
-    }
+    { "n": 1, "nome": "Extração do Drive", "status": "done" },
+    { "n": 2, "nome": "Scaffold + repo GitHub", "status": "done" },
+    { "n": 3, "nome": "Design system", "status": "done" },
+    { "n": 4, "nome": "Extração de copy", "status": "done" },
+    { "n": 5, "nome": "Front-end", "status": "done" },
+    { "n": 6, "nome": "Ajustes finais", "status": "done" },
+    { "n": 7, "nome": "Tags e módulos", "status": "done" },
+    { "n": 8, "nome": "Revisão humana + deploy", "status": "blocked" }
   ],
   "pendencias": [
     "Logo oficial Gesso JW — o Drive só tem a marca Wölfmann Construtora (parceira); o site usa SVG recriado do uniforme (Marca/logo-gesso-jw*.svg) — enviar arquivo oficial para substituir",
-    "Telefone/WhatsApp comercial real — placeholder 5511999999999 na constante WA_NUMBER de Site/js/app.js; candidato lido do uniforme: (11) 98085-8686 (confirmar)",
+    "Telefone/WhatsApp comercial real — placeholder 5511999999999 em Site/js/app.js e Site-B/js/app.js (WA_NUMBER); candidato lido do uniforme: (11) 98085-8686 (confirmar)",
     "Confirmar e-mail contato@gessojw.com.br (lido do uniforme, foto borrada)",
-    "Hospedagem e domínio não definidos — site gerado em HTML estático; informar Vercel/Hostinger para preparar deploy",
-    "Deploy: criar banco MySQL e preencher Site/db-config.php (só o .example é versionado) + trocar PROJETO_ADMIN_PASS antes de subir",
-    "Briefing pede 2 LPs em teste A/B — entregue site institucional único como base; definir se as 2 LPs derivam dele",
+    "Hospedagem e domínio não definidos — 2 pastas de deploy prontas (Site/=LP A principal, Site-B/=LP B slug secundário); definir Vercel (2º projeto com Root Directory=Site-B) ou Hostinger (subpath/subdomínio) e o slug final da LP B",
+    "Deploy: criar banco MySQL e preencher Site/db-config.php (só o .example é versionado) + trocar PROJETO_ADMIN_PASS antes de subir — só a LP A tem formulários/backend",
     "Vídeos das obras no Drive não foram usados no site (disponíveis se quiser seção de vídeo)"
   ],
   "links": {
     "drive": "https://drive.google.com/drive/folders/1W06w6OccDfFJxchs09Xk-9lNofhVbvG9",
     "repo": "https://github.com/dev-buildv/gesso-jw-site",
     "preview": "http://localhost:8791",
+    "preview_lp_b": "http://localhost:8792",
     "dominio": null
   },
-  "atualizado_em": "2026-08-06"
+  "atualizado_em": "2026-08-10"
 }

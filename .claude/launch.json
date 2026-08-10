@@ -4,8 +4,15 @@
     {
       "name": "gesso-jw-site",
       "runtimeExecutable": "node",
-      "runtimeArgs": ["C:\\Users\\DELL\\Documents\\PROJETOS\\gesso-jw-site\\preview-server.js"],
+      "runtimeArgs": ["C:\\Users\\DELL\\Documents\\PROJETOS\\gesso-jw-site\\preview-server.js", "Site"],
       "port": 8791,
+      "autoPort": true
+    },
+    {
+      "name": "gesso-jw-site-b",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:\\Users\\DELL\\Documents\\PROJETOS\\gesso-jw-site\\preview-server.js", "Site-B"],
+      "port": 8792,
       "autoPort": true
     }
   ]

@@ -23,14 +23,14 @@ Diferenciais: atendimento, qualidade, orçamento em 2 dias úteis. Ticket mínim
 - [x] 5. Front-end criado (Site/index.html + css + js; auditoria revisar-frontend: 0 bloqueantes após correções)
 - [x] 6. Ajustes finais (webp 80MB→5,8MB; overflow 0 em 320/360/375/768/1265; menu, lightbox e reveals testados por medição)
 - [x] 7. Módulos LGPD (cookie banner c/ dataLayer, política modal, /fornecedores/, /trabalhe-conosco/, form-handler.php, admin.php, db-config.example.php) — tags GTM/Merlin PULADAS (sem IDs)
+- [x] 7b. Tags instaladas: GTM (GTM-NW2XFFGG) + popup Merlin, mesmas em ambas as LPs
+- [x] 7c. Teste A/B das 2 LPs do briefing: `Site/` = LP A (ângulo agilidade/prazo, root/principal) e `Site-B/` = LP B (ângulo alto padrão/criatividade, slug secundário, sem link no menu da principal). Copy-fonte em `Copys/lp-a-agilidade.md` e `Copys/lp-b-alto-padrao.md`. Mesmo design system, assets e módulo LGPD (cookie banner + política); `Site-B/` não tem páginas Fornecedores/Trabalhe Conosco nem backend PHP (fora de escopo de uma LP de anúncio).
 - [ ] 8. 🛑 Revisão humana + deploy (aguardando aprovação e credenciais)
 
 ## Pendências (dependem do usuário — ver state.json.pendencias, 1:1 com o report)
 1. Logo oficial Gesso JW (Drive só tem marca Wölfmann; site usa SVG recriado do uniforme)
-2. WhatsApp comercial real (placeholder em `Site/js/app.js` → `WA_NUMBER`; candidato do uniforme: 11 98085-8686)
+2. WhatsApp comercial real (placeholder em `Site/js/app.js` e `Site-B/js/app.js` → `WA_NUMBER`; candidato do uniforme: 11 98085-8686)
 3. Confirmar e-mail contato@gessojw.com.br
-4. Hospedagem/domínio (site estático pronto; definir Vercel ou Hostinger)
-5. IDs GTM/GA4/Pixel + Merlin (banner já emite consentimento no dataLayer)
-6. Banco MySQL + `db-config.php` + senha do admin (antes do deploy)
-7. Escopo das 2 LPs de teste A/B do briefing
-8. Vídeos das obras não usados (disponíveis no Drive)
+4. Hospedagem/domínio: definir Vercel ou Hostinger — e como a LP B será publicada (2º projeto Vercel com Root Directory=Site-B, ou subpath/subdomínio na mesma hospedagem)
+5. Banco MySQL + `db-config.php` + senha do admin (antes do deploy da LP A — só ela tem formulários/backend)
+6. Vídeos das obras não usados (disponíveis no Drive)
