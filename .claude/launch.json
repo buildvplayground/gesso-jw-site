@@ -14,6 +14,13 @@
       "runtimeArgs": ["C:\\Users\\DELL\\Documents\\PROJETOS\\gesso-jw-site\\preview-server.js", "Site-B"],
       "port": 8792,
       "autoPort": true
+    },
+    {
+      "name": "gesso-jw-design-system",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:\\Users\\DELL\\Documents\\PROJETOS\\gesso-jw-site\\preview-server.js", "design-system"],
+      "port": 8793,
+      "autoPort": true
     }
   ]
 }

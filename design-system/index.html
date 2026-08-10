@@ -19,12 +19,12 @@
   --white:#FFFFFF; --whatsapp:#25D366;
   --gradient-primary:linear-gradient(135deg,var(--blue-900) 0%,var(--blue-700) 60%,var(--blue-600) 100%);
   --gradient-accent:linear-gradient(135deg,var(--red-700),var(--red-500));
-  --gradient-hero:linear-gradient(180deg,rgba(16,31,66,.82),rgba(16,31,66,.55));
-  --shadow-sm:0 1px 3px rgba(20,38,77,.10);
-  --shadow-md:0 4px 12px rgba(20,38,77,.14);
-  --shadow-lg:0 12px 28px rgba(20,38,77,.18);
-  --shadow-xl:0 24px 48px rgba(20,38,77,.24);
-  --shadow-accent:0 8px 24px rgba(193,39,45,.35);
+  --gradient-hero:linear-gradient(180deg,rgba(16,15,12,.82),rgba(16,15,12,.55));
+  --shadow-sm:0 1px 3px rgba(20,19,15,.10);
+  --shadow-md:0 4px 12px rgba(20,19,15,.14);
+  --shadow-lg:0 12px 28px rgba(20,19,15,.18);
+  --shadow-xl:0 24px 48px rgba(20,19,15,.24);
+  --shadow-accent:0 8px 24px rgba(214,166,38,.35);
   --transition-fast:150ms ease; --transition-base:250ms ease; --transition-slow:400ms ease;
   --transition-spring:500ms cubic-bezier(.34,1.56,.64,1);
   --font-display:'Archivo',sans-serif; --font-body:'Inter',sans-serif;
@@ -68,8 +68,9 @@ section>p.lead{color:var(--gray);max-width:640px;margin-bottom:32px}
 .swatch .info{padding:12px 16px;font-size:13px}
 .swatch .info b{display:block;font-family:var(--font-display)}
 .scale{display:flex;border-radius:8px;overflow:hidden;margin-bottom:20px}
-.scale div{flex:1;height:56px;position:relative}
-.scale span{position:absolute;bottom:4px;left:6px;font-size:9px;color:#fff;opacity:.85}
+.scale div{flex:1;height:72px;position:relative}
+.scale .n{position:absolute;top:6px;left:7px;font-size:10px;font-weight:700;color:#fff;opacity:.85}
+.scale .hex{position:absolute;bottom:6px;left:7px;font-size:9.5px;font-family:monospace;color:#fff;opacity:.9;white-space:nowrap}
 .grad-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
 .grad{height:110px;border-radius:var(--radius);color:#fff;display:flex;align-items:flex-end;padding:14px;font-size:13px;font-weight:600}
 /* Typography */
@@ -251,24 +252,26 @@ pre.tokens .k{color:var(--blue-300)} pre.tokens .v{color:var(--red-300)} pre.tok
     <div class="swatch"><div class="chip" style="background:var(--plaster);border-bottom:1px solid var(--plaster-2)"></div><div class="info"><b>Branco Gesso — #F7F5F2</b>Fundo padrão das seções</div></div>
     <div class="swatch"><div class="chip" style="background:var(--graphite)"></div><div class="info"><b>Grafite — #23272E</b>Texto principal</div></div>
   </div>
+  <p class="lead" style="margin-bottom:14px;font-size:13px">Escala grafite (<code>--blue-*</code>)</p>
   <div class="scale">
-    <div style="background:#100f0c"><span>950</span></div><div style="background:#17150f"><span>900</span></div>
-    <div style="background:#1c1b16"><span>800</span></div><div style="background:#25241E"><span>700</span></div>
-    <div style="background:#3a3729"><span>600</span></div><div style="background:#5c5540"><span>500</span></div>
-    <div style="background:#7c735a"><span>400</span></div><div style="background:#a89b7a"><span>300</span></div>
-    <div style="background:#cfc6a8"><span>200</span></div><div style="background:#ece7d9"><span>100</span></div>
+    <div style="background:#100f0c"><span class="n">950</span><span class="hex">#100f0c</span></div><div style="background:#17150f"><span class="n">900</span><span class="hex">#17150f</span></div>
+    <div style="background:#1c1b16"><span class="n">800</span><span class="hex">#1c1b16</span></div><div style="background:#25241E"><span class="n">700</span><span class="hex">#25241E</span></div>
+    <div style="background:#3a3729"><span class="n">600</span><span class="hex">#3a3729</span></div><div style="background:#5c5540"><span class="n">500</span><span class="hex">#5c5540</span></div>
+    <div style="background:#7c735a"><span class="n">400</span><span class="hex">#7c735a</span></div><div style="background:#a89b7a"><span class="n">300</span><span class="hex">#a89b7a</span></div>
+    <div style="background:#cfc6a8"><span class="n">200</span><span class="hex" style="color:#25241E">#cfc6a8</span></div><div style="background:#ece7d9"><span class="n" style="color:#25241E">100</span><span class="hex" style="color:#25241E">#ece7d9</span></div>
   </div>
+  <p class="lead" style="margin-bottom:14px;font-size:13px">Escala dourada (<code>--red-*</code>)</p>
   <div class="scale">
-    <div style="background:#5c4c1f"><span>900</span></div><div style="background:#786328"><span>800</span></div>
-    <div style="background:#8f7830"><span>700</span></div><div style="background:#D6A626"><span>600</span></div>
-    <div style="background:#b1943b"><span>500</span></div><div style="background:#c9ae5c"><span>400</span></div>
-    <div style="background:#dcc785"><span>300</span></div><div style="background:#ecdfb3"><span>200</span></div>
-    <div style="background:#f3ead1"><span>100</span></div><div style="background:#faf6e9"><span>50</span></div>
+    <div style="background:#5c4c1f"><span class="n">900</span><span class="hex">#5c4c1f</span></div><div style="background:#786328"><span class="n">800</span><span class="hex">#786328</span></div>
+    <div style="background:#8f7830"><span class="n">700</span><span class="hex">#8f7830</span></div><div style="background:#D6A626"><span class="n" style="color:#25241E">600</span><span class="hex" style="color:#25241E">#D6A626</span></div>
+    <div style="background:#b1943b"><span class="n">500</span><span class="hex">#b1943b</span></div><div style="background:#c9ae5c"><span class="n" style="color:#25241E">400</span><span class="hex" style="color:#25241E">#c9ae5c</span></div>
+    <div style="background:#dcc785"><span class="n" style="color:#25241E">300</span><span class="hex" style="color:#25241E">#dcc785</span></div><div style="background:#ecdfb3"><span class="n" style="color:#25241E">200</span><span class="hex" style="color:#25241E">#ecdfb3</span></div>
+    <div style="background:#f3ead1"><span class="n" style="color:#25241E">100</span><span class="hex" style="color:#25241E">#f3ead1</span></div><div style="background:#faf6e9"><span class="n" style="color:#25241E">50</span><span class="hex" style="color:#25241E">#faf6e9</span></div>
   </div>
   <div class="grad-row">
-    <div class="grad" style="background:var(--gradient-primary)">--gradient-primary</div>
-    <div class="grad" style="background:var(--gradient-accent)">--gradient-accent</div>
-    <div class="grad" style="background:var(--gradient-hero),url() var(--blue-800)">--gradient-hero (overlay p/ fotos)</div>
+    <div class="grad" style="background:var(--gradient-primary)"><div><b style="display:block;font-family:var(--font-display)">--gradient-primary</b><span style="font-family:monospace;font-size:11px;opacity:.85">135deg #17150f → #25241E 60% → #3a3729</span></div></div>
+    <div class="grad" style="background:var(--gradient-accent)"><div><b style="display:block;font-family:var(--font-display)">--gradient-accent</b><span style="font-family:monospace;font-size:11px;opacity:.85">135deg #8f7830 → #b1943b</span></div></div>
+    <div class="grad" style="background:var(--gradient-hero),var(--blue-800)"><div><b style="display:block;font-family:var(--font-display)">--gradient-hero</b><span style="font-family:monospace;font-size:11px;opacity:.85">180deg rgba(16,15,12,.82) → rgba(16,15,12,.55)</span></div></div>
   </div>
 </section>
 
@@ -507,8 +510,8 @@ pre.tokens .k{color:var(--blue-300)} pre.tokens .v{color:var(--red-300)} pre.tok
 <span class="k">--whatsapp</span>: <span class="v">#25D366</span>;   <span class="c">/* só no botão flutuante */</span>
 <span class="c">/* Gradientes */</span>
 <span class="k">--gradient-primary</span>: <span class="v">linear-gradient(135deg,#17150f,#25241E 60%,#3a3729)</span>;
-<span class="k">--gradient-accent</span>: <span class="v">linear-gradient(135deg,#a72127,#d13a40)</span>;
-<span class="k">--gradient-hero</span>: <span class="v">linear-gradient(180deg,rgba(16,31,66,.82),rgba(16,31,66,.55))</span>;
+<span class="k">--gradient-accent</span>: <span class="v">linear-gradient(135deg,#8f7830,#b1943b)</span>;
+<span class="k">--gradient-hero</span>: <span class="v">linear-gradient(180deg,rgba(16,15,12,.82),rgba(16,15,12,.55))</span>;
 <span class="c">/* Tipografia */</span>
 <span class="k">--font-display</span>: <span class="v">'Archivo', sans-serif</span>;
 <span class="k">--font-body</span>: <span class="v">'Inter', sans-serif</span>;
