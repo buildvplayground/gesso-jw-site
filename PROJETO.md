@@ -18,7 +18,8 @@ Diferenciais: atendimento, qualidade, orçamento em 2 dias úteis. Ticket mínim
 - [x] 1. Material extraído do Drive
 - [x] 2. Pastas organizadas (scaffold-projeto)
 - [x] 2b. Repo GitHub criado — https://github.com/dev-buildv/gesso-jw-site
-- [x] 3. Design system (design-system/index.html + direcao-estilo.md; paleta azul #1E3A7B + vermelho #C1272D da marca real do uniforme)
+- [x] 3. Design system (design-system/index.html + direcao-estilo.md)
+- [x] 3b. Logo oficial + paleta real (2026-08-10): logo extraído por amostragem de pixel do site antigo do cliente (www.gessojw.com.br) — pentágono dourado `#D6A626` + wordmark/JW grafite `#25241E`. Recriado em SVG vetorial (Marca/, Site/assets/logos/, Site-B/assets/logos/, design-system/assets/) substituindo o azul/vermelho genérico anterior em todo o CSS (Site + Site-B + páginas standalone). Ícone "+" do FAQ ajustado para grafite (dourado puro falha contraste AA como texto em fundo claro — ver design-system/direcao-estilo.md).
 - [x] 4. Copy estruturada (Copys/copy-site.txt, 10 seções — sem wireframes no Drive)
 - [x] 5. Front-end criado (Site/index.html + css + js; auditoria revisar-frontend: 0 bloqueantes após correções)
 - [x] 6. Ajustes finais (webp 80MB→5,8MB; overflow 0 em 320/360/375/768/1265; menu, lightbox e reveals testados por medição)
@@ -28,9 +29,9 @@ Diferenciais: atendimento, qualidade, orçamento em 2 dias úteis. Ticket mínim
 - [ ] 8. 🛑 Revisão humana + deploy (aguardando aprovação e credenciais)
 
 ## Pendências (dependem do usuário — ver state.json.pendencias, 1:1 com o report)
-1. Logo oficial Gesso JW (Drive só tem marca Wölfmann; site usa SVG recriado do uniforme)
-2. WhatsApp comercial real (placeholder em `Site/js/app.js` e `Site-B/js/app.js` → `WA_NUMBER`; candidato do uniforme: 11 98085-8686)
-3. Confirmar e-mail contato@gessojw.com.br
-4. Hospedagem/domínio: definir Vercel ou Hostinger — e como a LP B será publicada (2º projeto Vercel com Root Directory=Site-B, ou subpath/subdomínio na mesma hospedagem)
-5. Banco MySQL + `db-config.php` + senha do admin (antes do deploy da LP A — só ela tem formulários/backend)
-6. Vídeos das obras não usados (disponíveis no Drive)
+1. WhatsApp comercial real (placeholder em `Site/js/app.js` e `Site-B/js/app.js` → `WA_NUMBER`; candidato do uniforme: 11 98085-8686)
+2. Confirmar e-mail contato@gessojw.com.br
+3. Hospedagem/domínio: definir Vercel ou Hostinger — e como a LP B será publicada (2º projeto Vercel com Root Directory=Site-B, ou subpath/subdomínio na mesma hospedagem)
+4. Banco MySQL + `db-config.php` + senha do admin (antes do deploy da LP A — só ela tem formulários/backend)
+5. Vídeos das obras não usados (disponíveis no Drive)
+6. Logo é uma recriação vetorial fiel (cores/formato conferidos por amostragem de pixel no site antigo) — se o cliente tiver o arquivo-fonte original (.ai/.eps), enviar para substituir por precisão total de tipografia

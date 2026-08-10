@@ -14,12 +14,12 @@
     { "n": 8, "nome": "Revisão humana + deploy", "status": "blocked" }
   ],
   "pendencias": [
-    "Logo oficial Gesso JW — o Drive só tem a marca Wölfmann Construtora (parceira); o site usa SVG recriado do uniforme (Marca/logo-gesso-jw*.svg) — enviar arquivo oficial para substituir",
     "Telefone/WhatsApp comercial real — placeholder 5511999999999 em Site/js/app.js e Site-B/js/app.js (WA_NUMBER); candidato lido do uniforme: (11) 98085-8686 (confirmar)",
     "Confirmar e-mail contato@gessojw.com.br (lido do uniforme, foto borrada)",
     "Hospedagem e domínio não definidos — 2 pastas de deploy prontas (Site/=LP A principal, Site-B/=LP B slug secundário); definir Vercel (2º projeto com Root Directory=Site-B) ou Hostinger (subpath/subdomínio) e o slug final da LP B",
     "Deploy: criar banco MySQL e preencher Site/db-config.php (só o .example é versionado) + trocar PROJETO_ADMIN_PASS antes de subir — só a LP A tem formulários/backend",
-    "Vídeos das obras no Drive não foram usados no site (disponíveis se quiser seção de vídeo)"
+    "Vídeos das obras no Drive não foram usados no site (disponíveis se quiser seção de vídeo)",
+    "Logo é recriação vetorial fiel (cores #D6A626/#25241E e formato extraídos por amostragem de pixel do site antigo www.gessojw.com.br) — se o cliente tiver o arquivo-fonte original (.ai/.eps), enviar para precisão total de tipografia"
   ],
   "links": {
     "drive": "https://drive.google.com/drive/folders/1W06w6OccDfFJxchs09Xk-9lNofhVbvG9",

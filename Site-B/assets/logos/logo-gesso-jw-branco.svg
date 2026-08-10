@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 96" role="img" aria-label="Gesso JW">
-  <!-- Versão para fundo escuro — recriação provisória, substituir pelo arquivo oficial -->
-  <text x="0" y="66" font-family="Archivo, Arial, sans-serif" font-size="52" font-weight="800" font-style="italic" fill="#FFFFFF">Gesso</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" role="img" aria-label="Gesso JW">
+  <!-- Versão para fundo escuro — wordmark branco, pentágono e JW mantêm as cores da marca -->
+  <text x="0" y="72" font-family="Arial Black, Arial, sans-serif" font-weight="800" font-size="58" fill="#FFFFFF">Gesso</text>
   <g transform="translate(196,0)">
-    <polygon points="70,4 136,28 122,88 18,88 4,28" fill="#FFFFFF"/>
-    <text x="70" y="68" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="44" font-weight="900" font-style="italic" fill="#1E3A7B">JW</text>
+    <polygon points="72,2 142,34 142,98 2,98 2,34" fill="#D6A626"/>
+    <text x="72" y="76" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="800" font-size="46" fill="#25241E">JW</text>
   </g>
 </svg>
