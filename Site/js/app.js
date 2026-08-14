@@ -2,14 +2,23 @@
 (function () {
   'use strict';
 
-  // ---- WhatsApp (número centralizado — PLACEHOLDER: trocar pelo número real) ----
-  var WA_NUMBER = '5511999999999';
-  var WA_MSG = 'Olá! Vim pelo site da Gesso JW e gostaria de um orçamento de ';
+  // ---- CTA aciona o popup do Merlin (clique simulado no launcher que o próprio Merlin injeta) ----
+  function clickMerlinLauncher() {
+    var btn = document.querySelector('.merlin-button-popup');
+    if (btn) { btn.click(); return true; }
+    return false;
+  }
   document.querySelectorAll('[data-wa-btn]').forEach(function (el) {
-    var svc = el.getAttribute('data-wa-btn') || 'orçamento';
-    el.setAttribute('href', 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(WA_MSG + svc + '.'));
-    el.setAttribute('target', '_blank');
-    el.setAttribute('rel', 'noopener');
+    el.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (clickMerlinLauncher()) return;
+      // Merlin ainda carregando o launch.json: tenta por até 4s
+      var waited = 0;
+      var poll = setInterval(function () {
+        waited += 150;
+        if (clickMerlinLauncher() || waited >= 4000) clearInterval(poll);
+      }, 150);
+    });
   });
 
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
