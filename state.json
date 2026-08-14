@@ -14,7 +14,7 @@
     { "n": 8, "nome": "Revisão humana + deploy", "status": "blocked" }
   ],
   "pendencias": [
-    "Telefone/WhatsApp comercial real — placeholder 5511999999999 em Site/js/app.js e Site-B/js/app.js (WA_NUMBER); candidato lido do uniforme: (11) 98085-8686 (confirmar)",
+    "CTA não usa mais WhatsApp — todos os botões abrem o popup do Merlin (a pedido do cliente); confirmar se isso é definitivo ou se o WhatsApp deve voltar como canal em algum ponto",
     "Confirmar e-mail contato@gessojw.com.br (lido do uniforme, foto borrada)",
     "Hospedagem e domínio não definidos — 2 pastas de deploy prontas (Site/=LP A principal, Site-B/=LP B slug secundário); definir Vercel (2º projeto com Root Directory=Site-B) ou Hostinger (subpath/subdomínio) e o slug final da LP B",
     "Deploy: criar banco MySQL e preencher Site/db-config.php (só o .example é versionado) + trocar PROJETO_ADMIN_PASS antes de subir — só a LP A tem formulários/backend",
@@ -22,7 +22,8 @@
   ],
   "links": {
     "drive": "https://drive.google.com/drive/folders/1W06w6OccDfFJxchs09Xk-9lNofhVbvG9",
-    "repo": "https://github.com/dev-buildv/gesso-jw-site",
+    "repo": "https://github.com/buildvplayground/gesso-jw-site",
+    "pr_aberto": "https://github.com/buildvplayground/gesso-jw-site/pull/1",
     "preview": "http://localhost:8791",
     "preview_lp_b": "http://localhost:8792",
     "dominio": null
